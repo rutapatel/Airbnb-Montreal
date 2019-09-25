@@ -1,2 +1,10 @@
 # Airbnb-Montreal
- Price prediction analysis on 2019 Airbnb Montreal dataset
+Price prediction analysis on 2019 Airbnb Montreal dataset
+
+Abstract— Airbnb is a multinational online market company hosting affordable short term rentals in various countries. It is an online platform for hosts to offer their homes to guests for short term lodging. Guests can make bookings according to their preferences and budget. Airbnb hosts over 6M listings, in 100K cities over 191+ countries. Since, there are various features to choose from while booking a listing, predicting the price from them is an interesting data analysis task.
+In this report, we focus on data from Airbnb Montreal, Canada, where we predict the price of a listing based on 10 feature variables. We have performed 5 supervised learning algorithms: Linear regression, Random forest, KNN, Decision tree and Support vector regressor (SVR). Prior to that exploratory data analysis (EDA), data cleaning and splitting the data into training and testing sets has been done. All the models are evaluated and results are discussed.
+The dataset size is 21,104 with 106 predictive attributes out of which 2 are non – predictive and 1 target variable price. The project was implemented in Python.
+
+Business Insights: 
+In our analysis we predicted 50% (half) of the factors that affects the pricing. Using Random forest regression, we fit a model that predicted a MAE of $33.86 for all the listings and $19.55 on single listing. This can give a better understanding to the hosts and customers about the correct price to be charged and paid. Also, this analysis can be used by Airbnb in giving better suggestions to the new hosts. It can be used by hosts to better price their property according to the features present in their property and make a fine profit. They can gain confidence in demanding the price that they deemed fit.
+Additionally, it can be used to avoid paying unfair amount that is sometimes charged by the hosts. This analysis gives a crisp idea about what important features to look for before booking and paying for your next stay.
